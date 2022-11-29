@@ -19,19 +19,19 @@ import { DeleteEventFab } from "../ui/DeleteEventFab";
 
 moment.locale("es");
 const localizer = momentLocalizer(moment);
-const events = [
-	{
-		title: "Cumnpleanos mio",
-		start: moment().toDate(),
-		end: moment().add(2, "hours").toDate(),
-		bgcolor: "#fafafa",
-		notes: "Comprar cake",
-		user: {
-			_id: "123",
-			name: "Daniel",
-		},
-	},
-];
+// const events = [
+// 	{
+// 		title: "Cumnpleanos mio",
+// 		start: moment().toDate(),
+// 		end: moment().add(2, "hours").toDate(),
+// 		bgcolor: "#fafafa",
+// 		notes: "Comprar cake",
+// 		user: {
+// 			_id: "123",
+// 			name: "Daniel",
+// 		},
+// 	},
+// ];
 
 export const CalendarScreen = () => {
 	const dispatch = useDispatch();
